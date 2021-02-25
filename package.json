@@ -4,6 +4,9 @@
     "displayName": "SWIG Language",
     "description": "SWIG (Simplified Wrapper and Interface Generator) is an interface compiler that connects programs written in C and C++ with scripting languages such as Perl, Python, Ruby, and Tcl. ",
     "version": "0.0.1",
+    "repository": {
+        "url": "https://github.com/starofrainnight/vscode-swiglang.git"
+    },
     "engines": {
         "vscode": "^1.52.0"
     },
