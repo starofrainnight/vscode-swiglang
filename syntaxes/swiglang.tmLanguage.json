@@ -1,0 +1,115 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "SWIG Language",
+	"patterns": [
+		{
+			"include": "#preprocessors"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#cpp-block"
+		},
+		{
+			"include": "#class"
+		},
+		{
+			"include": "source.cpp"
+		}
+	],
+	"repository": {
+		"preprocessors": {
+			"patterns": [
+				{
+					"include": "#macros"
+				},
+				{
+					"name": "meta.preprocessor.include.swiglang",
+					"match": "(%include)\\b"
+				},
+				{
+					"name": "meta.preprocessor.swiglang",
+					"match": "(%)(insert|inline|typemap|typemapcopy|typemapitem|feature|bang|rename|ignore|constant|types)\\b"
+				},
+				{
+					"name": "meta.preprocessor.macro.swiglang",
+					"match": "(#define)\\s+(%[^\\s]+)\\s+(.*)$",
+					"captures": {
+						"1": {
+							"name": "keyword.control.directive.define.swiglang"
+						},
+						"2": {
+							"name": "entity.name.function.preprocessor.swiglang"
+						},
+						"3": {
+							"patterns": [
+								{
+									"include": "source.swiglang"
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.other.module.swiglang",
+					"match": "(%module)\\b"
+				},
+				{
+					"name": "keyword.control.directive.diagnostic.warning.swiglang",
+					"match": "(%warn)\\b"
+				}
+			]
+		},
+		"cpp-block": {
+			"name": "meta.block.source.cpp.swiglang",
+			"begin": "%\\{",
+			"end": "%\\}",
+			"patterns": [
+				{
+					"include": "source.cpp"
+				}
+			]
+		},
+		"macros": {
+			"name": "meta.block.swiglang",
+			"begin": "(%define)\\s+([^\\(\\s]+)\\s*(\\(.*\\))?",
+			"beginCaptures": {
+				"1": {
+					"name": "keyword.control.directive.define.swiglang"
+				},
+				"2": {
+					"name": "entity.name.function.preprocessor.swiglang"
+				}
+			},
+			"end": "(%enddef)\\b",
+			"endCaptures": {
+				"1": {
+					"name": "keyword.control.directive.define.swiglang"
+				}
+			},
+			"patterns": [
+				{
+					"include": "source.swiglang"
+				}
+			]
+		},
+		"class": {
+			"name": "meta.block.class.swiglang",
+			"match": "(%extend)\\s+(\\w*)",
+			"captures": {
+				"1": {
+					"name": "meta.preprocessor.swiglang"
+				},
+				"2": {
+					"name": "entity.name.type.class.swiglang"
+				}
+			}
+		}
+	},
+	"scopeName": "source.swiglang"
+}

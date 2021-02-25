@@ -1,0 +1,98 @@
+{
+    "comments": {
+        "blockComment": [
+            "/*",
+            "*/"
+        ],
+        "lineComment": "//"
+    },
+    // symbols used as brackets
+    "brackets": [
+        [
+            "%define",
+            "%enddef"
+        ],
+        [
+            "#ifdef",
+            "#endif"
+        ],
+        [
+            "#ifndef",
+            "#endif"
+        ],
+        [
+            "#if",
+            "#endif"
+        ],
+        [
+            "%{",
+            "%}"
+        ],
+        [
+            "{",
+            "}"
+        ],
+        [
+            "[",
+            "]"
+        ],
+        [
+            "(",
+            ")"
+        ]
+    ],
+    // symbols that are auto closed when typing
+    "autoClosingPairs": [
+        [
+            "%{",
+            "%}"
+        ],
+        [
+            "{",
+            "}"
+        ],
+        [
+            "[",
+            "]"
+        ],
+        [
+            "(",
+            ")"
+        ],
+        [
+            "\"",
+            "\""
+        ],
+        [
+            "'",
+            "'"
+        ]
+    ],
+    // symbols that can be used to surround a selection
+    "surroundingPairs": [
+        [
+            "%{",
+            "%}"
+        ],
+        [
+            "{",
+            "}"
+        ],
+        [
+            "[",
+            "]"
+        ],
+        [
+            "(",
+            ")"
+        ],
+        [
+            "\"",
+            "\""
+        ],
+        [
+            "'",
+            "'"
+        ]
+    ]
+}

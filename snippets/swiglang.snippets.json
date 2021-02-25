@@ -1,0 +1,82 @@
+{
+    "%include": {
+		"prefix": "include",
+        "body": ["%include"],
+        "description": "The include directive"
+    },
+    "%insert": {
+		"prefix": "insert",
+        "body": ["%insert"],
+        "description": "The insert directive"
+    },
+    "%inline": {
+		"prefix": "inline",
+        "body": ["%inline"],
+        "description": "The inline directive"
+    },
+    "%typemap": {
+		"prefix": "typemap",
+        "body": ["%include"],
+        "description": "The typemap directive"
+    },
+    "%typemapcopy": {
+		"prefix": "typemapcopy",
+        "body": ["%typemapcopy"],
+        "description": "The typemapcopy directive"
+    },
+    "%typemapitem": {
+		"prefix": "typemapitem",
+        "body": ["%typemapitem"],
+        "description": "The typemapitem directive"
+    },
+    "%feature": {
+		"prefix": "feature",
+        "body": ["%feature"],
+        "description": "The feature directive"
+    },
+    "%bang": {
+		"prefix": "bang",
+        "body": ["%bang"],
+        "description": "The bang directive"
+    },
+    "%rename": {
+		"prefix": "rename",
+        "body": ["%rename"],
+        "description": "The rename directive"
+    },
+    "%ignore": {
+		"prefix": "ignore",
+        "body": ["%ignore"],
+        "description": "The ignore directive"
+    },
+    "%constant": {
+		"prefix": "constant",
+        "body": ["%constant"],
+        "description": "The constant directive"
+    },
+    "%types": {
+		"prefix": "types",
+        "body": ["%types"],
+        "description": "The types directive"
+    },
+    "%enddef": {
+		"prefix": "enddef",
+        "body": ["%enddef"],
+        "description": "The enddef directive"
+    },
+    "%warn": {
+		"prefix": "warn",
+        "body": ["%warn"],
+        "description": "The warn directive"
+    },
+    "%define": {
+        "prefix": "define",
+        "body": ["%define $0", "%enddef"],
+        "description": "The define directive"
+    },
+    "%extend": {
+        "prefix": "extend",
+        "body": ["%extend $0", "{", "}"],
+        "description": "The extend directive"
+    }
+}
