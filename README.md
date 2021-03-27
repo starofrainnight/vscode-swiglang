@@ -10,10 +10,7 @@ SWIG (Simplified Wrapper and Interface Generator) is an interface compiler that 
 * (TBD) IntelliSense
 * Snippets
 
-
 ![Preview](images/preview0.png)
-
-![Preview](images/preview1.png)
 
 ## Release Notes
 
