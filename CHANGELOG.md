@@ -14,3 +14,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Added icon
 - Fixed version in README.md
+
+## [0.0.4] - 2021-03-27
+
+- Reduce generated package size
