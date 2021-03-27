@@ -15,7 +15,7 @@ A language support extension for SWIG (Simplified Wrapper and Interface Generato
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.2
 
 Initial release
 
