@@ -2,7 +2,7 @@
 .vscode-test/**
 .gitignore
 .gitattributes
-*.xcf
+**/*.xcf
 .bumpversion.cfg
 vsc-extension-quickstart.md
 node_modules/**
