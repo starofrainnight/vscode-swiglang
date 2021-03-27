@@ -1,5 +1,7 @@
 # Change Log
 
+## [Unreleased]
+
 ## [0.0.2] - 2021-03-27
 
 - Initial release
