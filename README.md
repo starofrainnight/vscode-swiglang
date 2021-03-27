@@ -1,31 +1,24 @@
-# swiglang README
+# swiglang
 
-TBD
+A language support extension for SWIG (Simplified Wrapper and Interface Generator) .
 
 ## Features
 
-TBD
+* Syntax Highlights
+* (TBD) IntelliSense
+* Snippets
 
-## Requirements
 
-TBD
+![Preview](images/preview0.png)
 
-## Extension Settings
-
-TBD
-
-## Known Issues
-
-TBD
+![Preview](images/preview1.png)
 
 ## Release Notes
-
-TBD
 
 ### 1.0.0
 
 Initial release
 
------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 
