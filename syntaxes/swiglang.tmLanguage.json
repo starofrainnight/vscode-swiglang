@@ -26,11 +26,11 @@
 				},
 				{
 					"name": "meta.preprocessor.include.swiglang",
-					"match": "(%include)\\b"
+					"match": "(%)(include|import)\\b"
 				},
 				{
 					"name": "meta.preprocessor.swiglang",
-					"match": "(%)(insert|inline|typemap|typemapcopy|typemapitem|feature|bang|rename|ignore|constant|types)\\b"
+					"match": "(%)(apply|insert|inline|template|typemap|typemapcopy|typemapitem|feature|bang|rename|ignore|constant|types|nspace)\\b"
 				},
 				{
 					"name": "meta.preprocessor.macro.swiglang",
