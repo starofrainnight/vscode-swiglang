@@ -16,12 +16,4 @@ SWIG (Simplified Wrapper and Interface Generator) is an interface compiler that 
 
 This project is licensed under Apache-2.0, you will get a copy under this project root.
 
-## Release Notes
-
-### 0.0.2
-
-Initial release
-
 -------------------------------------------------------------------------------
-
-
