@@ -78,5 +78,15 @@
         "prefix": "extend",
         "body": ["%extend $0", "{", "}"],
         "description": "The extend directive"
+    },
+    "%mutable": {
+        "prefix": "mutable",
+        "body": ["%mutable"],
+        "description": "The mutable directive"
+    },
+    "%immutable": {
+        "prefix": "immutable",
+        "body": ["%immutable"],
+        "description": "The immutable directive"
     }
 }
