@@ -30,7 +30,7 @@
 				},
 				{
 					"name": "meta.preprocessor.swiglang",
-					"match": "(%)(apply|insert|inline|template|typemap|typemapcopy|typemapitem|feature|bang|rename|ignore|constant|types|nspace)\\b"
+					"match": "(%)(apply|insert|inline|template|typemap|typemapcopy|typemapitem|feature|bang|rename|ignore|constant|types|nspace|mutable|immutable)\\b"
 				},
 				{
 					"name": "meta.preprocessor.macro.swiglang",
