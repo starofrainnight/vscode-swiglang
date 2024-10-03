@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.0.7] - 2024-10-03
+
+- Added keywords: mutable, immutable, thanks to @gorkonovalov(Egor Konovalov)
+
 ## [0.0.6] - 2023-08-04
 
 - Added license
